@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="dnndev.me" Class="KrypinQuesLinqDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=ANDREAS-DATOR\ANDREASSQL2014;Initial Catalog=dnndev.me;User ID=dnndev.me" SettingsObjectName="KrypinQuestLibrary.My.MySettings" SettingsPropertyName="dnndev_meConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.tbl_aj_Quest" Member="tbl_aj_Quests">
+    <Type Name="tbl_aj_Quest">
+      <Column Name="QuestId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Aid" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Uppdrag" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Beskrivning" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="Active" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbl_aj_QuestTrigger" Member="tbl_aj_QuestTriggers">
+    <Type Name="tbl_aj_QuestTrigger">
+      <Column Name="QtriggerID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="QID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TName" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="TValue" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblAjBokmarkelseGrupper" Member="tblAjBokmarkelseGruppers">
+    <Type Name="tblAjBokmarkelseGrupper">
+      <Column Name="AwardGroupID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="AwardGroup" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
+      <Column Name="Occures" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PointEarned" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ToLevelUp" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="BibblimoneyEarnID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblAjBokmarkelser" Member="tblAjBokmarkelsers">
+    <Type Name="tblAjBokmarkelser">
+      <Column Name="Aid" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Awardname" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="Levels" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Beskrivning" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
+      <Column Name="Occurs" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Badgesrc" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
+      <Column Name="Awardgroup" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="KrypinQuesLinq">
+  <DataContextMoniker Name="/KrypinQuesLinqDataContext" />
+  <nestedChildShapes>
+    <classShape Id="340d8bdf-0ce0-4639-8d84-3174c19424b9" absoluteBounds="0.75, 0.75, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/KrypinQuesLinqDataContext/tbl_aj_Quest" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3319be27-6b71-4576-af70-9e49b6540ff6" absoluteBounds="0.765, 1.21, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="93d7716b-f314-4d86-9c52-6f311bc1012c" absoluteBounds="3.75, 0.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/KrypinQuesLinqDataContext/tbl_aj_QuestTrigger" />
+      <nestedChildShapes>
+        <elementListCompartment Id="de222d17-780a-4bf0-b12c-68f11e7cdb73" absoluteBounds="3.765, 1.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1da6cd48-d69a-43bb-8f17-dc59035c4a77" absoluteBounds="0.75, 2.875, 2, 1.9631982421875005">
+      <DataClassMoniker Name="/KrypinQuesLinqDataContext/tblAjBokmarkelseGrupper" />
+      <nestedChildShapes>
+        <elementListCompartment Id="31dfc366-74ff-4b08-932c-d7c626288a32" absoluteBounds="0.765, 3.335, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2b8fd1b0-9551-4879-9048-c73297995b55" absoluteBounds="3.625, 3, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/KrypinQuesLinqDataContext/tblAjBokmarkelser" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bfb781fb-74d0-4295-9ccc-a4febfb1da46" absoluteBounds="3.64, 3.46, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
